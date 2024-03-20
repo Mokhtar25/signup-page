@@ -20,43 +20,44 @@
                 <div class="text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</div>
                 <div class="head-main">You know you want to.</div>
             </div>
-            <div class="form">
+            <form class="form" id="form">
                 <fieldset class="field">
                     <legend><h2>Lest's do it!</h2></legend>
                     <div class="wrap"> 
                         <label for="firstname"> First Name</label>
-                        <input type="text" name="first-name" id="firstname">
+                        <input type="text" required name="first-name" id="firstname">
                     </div>
                     <div class="wrap"> 
                     <label for="lastname"> Last Name</label>
-                    <input type="text" name="last-name" id="lastname">
+                    <input type="text" name="last-name" required id="lastname">
                     </div>
 
                     <div class="wrap">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" required id="email">
                     </div>
                     <div class="wrap">
-                    <label for="tel">Number</label>
-                    <input type="tel" name="tel" id="tel">
+                    <label for="tel">Phone Number</label>
+                    <input type="number" name="tel" id="tel" required>
                     </div>
                     <div class="wrap">
                     <label for="password"> Password</label>
-                    <input type="Password" name="password" id="password">
+                    <input type="Password" name="password" id="password" required>
                     </div>
 
                     <div class="wrap">
                     <label for="confirm">Confirm Password</label>
-                    <input type="password" name="confirm" id="confirm">
+                    <input type="password" name="confirm" id="confirm" required>
                     </div>
 
 
                 </fieldset>
 
-            </div>
+            </form>
 
             <div class="foot">
-                <div class="button">Sign Up</div>
+                <button type="submit" type="submit" form="form" class="button">Sign Up </button>
+
                 <div class="text-button">Already have an account? <a href="#">Log in</a></div>
             </div>
             </div>

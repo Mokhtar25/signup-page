@@ -141,17 +141,29 @@ legend{
 .button{
     width: 20%;
     color: white;
+    border: none;
+    padding: 0px 0px;
     height: 3rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 1rem;
+    padding-inline: 0px;
+    padding-block: 0px;
     background-color: #596D48;
+    
 }
-
-
-
-
+.button:hover{
+    background-color: rgb(110, 125, 90);
+    cursor: pointer;
+}
+.button:active{
+    background-color: rgb(100, 99, 70);
+}
+input:invalid{
+    border: 2px solid red;
+}
 
 
 
