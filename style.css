@@ -1,6 +1,6 @@
 @font-face{
     font-family: odin;
-    src: url("static/Norse-Bold.otf");
+    src: url("static/norse-bold-webfont.woff2") format("woff2");
     unicode-range:U+0025-00FF;
 }
 body{
