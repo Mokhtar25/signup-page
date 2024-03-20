@@ -161,8 +161,9 @@ legend{
 .button:active{
     background-color: rgb(100, 99, 70);
 }
-input:invalid{
-    border: 2px solid red;
+input:focus:invalid{
+
+    border: 5px solid red in;
 }
 
 
